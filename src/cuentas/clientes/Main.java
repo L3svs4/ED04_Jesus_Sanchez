@@ -3,6 +3,10 @@ package cuentas.clientes;
 public class Main {
 
     public static void main(String[] args) {
+        operativa_cuenta();
+    }
+
+    private static void operativa_cuenta() {
         Cuenta miCuenta;
         double saldoActual;
 
