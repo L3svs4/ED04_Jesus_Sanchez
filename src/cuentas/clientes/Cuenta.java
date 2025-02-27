@@ -1,6 +1,6 @@
-package es.maestre;
+package cuentas.clientes;
 
-public class CCuenta {
+public class Cuenta {
 
 
     private String nombre;
@@ -8,7 +8,7 @@ public class CCuenta {
     private double saldo;
     private double tipoInteres;
 
-    public CCuenta()
+    public Cuenta()
     {
         nombre ="";
         cuenta="";
@@ -16,7 +16,7 @@ public class CCuenta {
         tipoInteres=0;
     }
 
-    public CCuenta(String nom, String cue, double sal, double tipo)
+    public Cuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
         cuenta=cue;
